@@ -8,3 +8,7 @@ const eightIsOdd = isOdd(8);
 console.log(threeIsOdd);
 console.log(eightIsOdd);
 
+const isOdd = function (num) {
+  return num % 2 !== 0;
+  
+}
